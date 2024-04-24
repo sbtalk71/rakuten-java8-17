@@ -7,9 +7,9 @@ public class Main {
     public static void main(String[] args) {
        // ExecutorService es= Executors.newFixedThreadPool(3);
         
-    	//ExecutorService es= Executors.newCachedThreadPool();
+    	ExecutorService es= Executors.newCachedThreadPool();
     	
-    	ExecutorService es= Executors.newSingleThreadExecutor();
+    	//ExecutorService es= Executors.newSingleThreadExecutor();
     	
     	
         TableGenerator tg= new TableGenerator();
