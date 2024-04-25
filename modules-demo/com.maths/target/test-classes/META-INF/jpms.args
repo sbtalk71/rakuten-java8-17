@@ -1,0 +1,4 @@
+--patch-module
+com.maths=_
+--add-reads
+com.maths=ALL-UNNAMED
