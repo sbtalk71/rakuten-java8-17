@@ -7,7 +7,7 @@ public class SwitchExpression {
 		
 
 		int numLetters=switch (day) {
-		case MONDAY, FRIDAY, SUNDAY->6;
+		case MONDAY, FRIDAY, SUNDAY->6; //case->L
 		case THURSDAY,SATURDAY->8;
 		case WEDNESDAY-> 9;
 		case TUESDAY->7;
